@@ -5,13 +5,17 @@
 
 ### Installation
 
-1.    ``` $ npm install -g cordova ionic ```
+1.    ``` $ npm install npm@latest -g ```
+
+2.    ``` $ npm install -g cordova ionic ```
     
-2.    ``` $ git clone https://github.com/ElisFilipsson/Ionic2App.git ```
+3.    ``` $ git clone https://github.com/ElisFilipsson/Ionic2App.git ```
 
-3.    ``` $ npm install ```
+4.    ``` $ cd Ionic2App ```
 
-4.    ``` $ ionic start ```
+5.    ``` $ npm install ```
+
+6.    ``` $ ionic start ```
 
 The page will open in your browser - Be patient.
 
