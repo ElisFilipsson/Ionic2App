@@ -1,0 +1,6 @@
+[
+    { "img" : "/assets/img/finn.png", "user" : "napster", "days": "2", "star" : "Whitney Houston", "name" :  "Hard Rock Café", "date" : "2017-01-05", "location-x" : "44544488", "location-y" : "121245", "temp": 1100},
+    { "img" : "/assets/img/finn.png", "user" : "napster", "days": "1", "star" : "Mariah Carey", "name" :  "Edgar's Inn", "date" : "2017-01-03", "location-x" : "44544488", "location-y" : "121245", "temp": 1200},
+    { "img" : "/assets/img/finn.png", "user" : "napster", "days": "6", "star" : "Whitney Houston", "name" :  "Myles' House", "date" : "2017-01-04", "location-x" : "44544488", "location-y" : "121245", "temp": 350},
+    { "img" : "/assets/img/finn.png", "user" : "napster", "days": "8", "star" : "Björn Borg", "name" :  "Planet Hollywood", "date" : "2017-01-02", "location-x" : "44544488", "location-y" : "121245", "temp": 500}
+]

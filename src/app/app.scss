@@ -1,0 +1,54 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+
+  $primary:    #3a4d5f;
+  $secondary:  #738290;
+  $danger:     #705733;
+  $light:      #DECAAD;
+  $dark:       #263a48;
+
+.wp {
+    background-color: $dark;
+}
+.tab-menu {
+    background: $light;
+}
+
+.list-items{
+    color: $light;
+    background: $primary; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, $primary, $secondary); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, $primary, $secondary); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, $primary, $secondary); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, $primary, $secondary); /* Standard syntax */
+
+    p {
+        color: $light;
+    }
+}
+.dark-bg{
+    color: $light;
+    background: $primary;
+
+    p {
+        color: $light;
+    }
+    input {
+        background-color: $light;
+    }
+}
